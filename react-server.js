@@ -1,1 +1,1 @@
-exports.isReactServer = () => true;
+exports.IN_REACT_SERVER = true;

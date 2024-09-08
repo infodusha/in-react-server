@@ -1,16 +1,16 @@
 {
-  "name": "is-react-server",
-  "description": "This is a marker package to know if that a module is used in Server Components.",
-  "keywords": [
-    "react"
-  ],
+  "name": "in-react-server",
+  "description": "This is a marker package to know if that a module used in Server Components.",
+  "keywords": ["react"],
+  "types": "types.d.ts",
   "version": "0.0.1",
-  "bugs": "https://github.com/infodusha/is-react-server/issues",
+  "bugs": "https://github.com/infodusha/in-react-server/issues",
   "license": "Apache-2.0",
-  "files": ["index.js", "react-server.js"],
+  "files": ["types.d.ts", "react-server.js", "index.js"],
   "main": "index.js",
   "exports": {
     ".": {
+      "types": "./types.d.ts",
       "react-server": "./react-server.js",
       "default": "./index.js"
     }
