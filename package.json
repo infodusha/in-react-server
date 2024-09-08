@@ -1,0 +1,18 @@
+{
+  "name": "is-react-server",
+  "description": "This is a marker package to know if that a module is used in Server Components.",
+  "keywords": [
+    "react"
+  ],
+  "version": "0.0.1",
+  "bugs": "https://github.com/infodusha/is-react-server/issues",
+  "license": "Apache-2.0",
+  "files": ["index.js", "react-server.js"],
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "react-server": "./react-server.js",
+      "default": "./index.js"
+    }
+  }
+}
